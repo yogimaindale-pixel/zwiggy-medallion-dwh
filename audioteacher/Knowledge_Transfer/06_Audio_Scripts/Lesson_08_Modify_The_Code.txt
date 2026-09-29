@@ -1,0 +1,9 @@
+Welcome back student. Today we are going to learn how to modify and extend the pipeline code.
+Suppose business requests adding a new analytical metric table, such as gold_restaurant_reviews.
+First, add table creation DDL in GoldLayerManager dot create_gold_tables inside src gold_layer dot py.
+Second, write the SQL aggregation transformation function populate_gold_restaurant_reviews.
+Third, register the new function inside run_gold_transformations.
+Fourth, execute pytest tests to verify that all test assertions pass cleanly.
+Let's pause and understand this with an example. Extending Gold data marts is like adding a new specialized chart to an executive dashboard.
+Now let's see where this appears in the repository. Gold table creation methods are defined in src gold_layer dot py between lines 28 and 375.
+Congratulations, you now understand how to safely extend the Zwiggy Medallion Data Warehouse!

@@ -1,0 +1,7 @@
+Welcome back student. Today we are going to discuss key data engineering concepts implemented in this repository.
+Concept one is Medallion Layered Isolation, separating ingestion from business aggregation.
+Concept two is Context Manager Transaction Resilience, using Python context managers to guarantee automatic SQL commit or rollback.
+Concept three is Analytical Mart Pre-aggregation, pre-calculating total GMV and customer order counts for instant BI reporting.
+Let's pause and understand this with an example. Pre-aggregating metrics in Gold tables is like calculating monthly credit card statements ahead of time so customers do not wait for raw transaction recalculations.
+Now let's see where this appears in the repository. Transaction context management is defined in src db_connection dot py using the get_db_cursor function.
+Congratulations, you now understand the core concepts of Medallion warehouse design!

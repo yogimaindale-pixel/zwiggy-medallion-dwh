@@ -1,0 +1,8 @@
+Welcome back student. Today we are going to walk through the repository file layout.
+The root directory contains run_pipeline dot py and document files.
+The src directory contains db_connection dot py, bronze_layer dot py, silver_layer dot py, gold_layer dot py, and pipeline_runner dot py.
+The data directory contains sample_data_generator dot py and SQLite database files.
+The tests directory contains test_pipeline dot py for automated validation.
+Let's pause and understand this with an example. Modular file organization ensures that database connection logic is separated from business layer transformations.
+Now let's see where this appears in the repository. Database connection configuration is located in config database_config dot py.
+Congratulations, you now understand the folder structure and module organization!

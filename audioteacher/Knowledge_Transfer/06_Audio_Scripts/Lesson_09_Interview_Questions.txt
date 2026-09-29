@@ -1,0 +1,10 @@
+Welcome back student. Today we are going to practice answering technical interview questions based on this project.
+Question one: What is the primary benefit of Medallion Architecture over single-stage ETL?
+Spoken answer: Medallion architecture decouples raw data landing in Bronze from data cleansing in Silver and business metrics in Gold, guaranteeing historical auditability and preventing operational query locks.
+Question two: How do you handle transient database connection failures?
+Spoken answer: We use Python context managers in db_connection dot py that automatically manage connection lifespan, enforcing atomic transaction commits or automatic rollbacks upon failure.
+Question three: How do you verify pipeline correctness?
+Spoken answer: We execute automated unit tests in test_pipeline dot py checking row count consistency and data non-emptiness across Bronze, Silver, and Gold layers.
+Let's pause and understand this with an example. Explaining transaction safety and layer isolation demonstrates senior data engineering expertise in interviews.
+Now let's see where this appears in the repository. Automated pipeline tests are defined in tests test_pipeline dot py.
+Congratulations, you now understand how to defend this repository in technical interviews!

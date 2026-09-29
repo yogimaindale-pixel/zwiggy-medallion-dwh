@@ -1,0 +1,8 @@
+Welcome back student. Today we are going to trace the exact execution sequence when running the pipeline.
+Execution starts in run_pipeline dot py when main invokes ZwiggyPipelineRunner dot run_full_pipeline.
+Step one calls BronzeLayerManager dot run_bronze_ingestion, populating 6 raw Bronze tables.
+Step two calls SilverLayerManager dot run_silver_transformations, populating 7 relational Silver tables.
+Step three calls GoldLayerManager dot run_gold_transformations, populating 4 analytical Gold marts.
+Let's pause and understand this with an example. If Silver transformation encounters a corrupted record, transaction rollback prevents partial writes from poisoning Gold analytics tables.
+Now let's see where this appears in the repository. Execution sequence logic is defined in src pipeline_runner dot py between lines 46 and 99.
+Congratulations, you now understand the complete pipeline execution flow!

@@ -1,0 +1,7 @@
+Welcome back student. Today we are going to explore the Zwiggy Medallion Data Warehouse repository.
+Food delivery platforms process thousands of customer orders per minute.
+Running business reports directly against operational databases causes severe latency and app slowdowns.
+This repository solves that problem using a 3-tier Medallion Data Architecture built with Python and SQLite.
+Let's pause and understand this with an example. Imagine a busy restaurant kitchen. If managers try to conduct inventory audits directly at the chef's counter, meal delivery slows down. We copy order tickets to a quiet office ledger for audit analysis.
+Now let's see where this appears in the repository. The entrypoint script is run_pipeline dot py, which initializes the ZwiggyPipelineRunner class in src pipeline_runner dot py.
+Congratulations, you now understand the problem statement and Medallion architecture layout!

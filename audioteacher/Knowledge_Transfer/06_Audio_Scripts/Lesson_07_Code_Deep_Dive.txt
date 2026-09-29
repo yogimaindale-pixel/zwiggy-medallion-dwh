@@ -1,0 +1,6 @@
+Welcome back student. Today we are going to perform a code deep dive into the Silver and Gold transformation managers.
+In src silver_layer dot py, SilverLayerManager iterates through Bronze JSON payloads, decodes fields using json dot loads, and applies data type casting and null defaults.
+In src gold_layer dot py, GoldLayerManager executes SQL aggregation queries using GROUP BY and SUM to populate daily sales and driver metrics tables.
+Let's pause and understand this with an example. Decoding JSON in Silver isolates raw API variations from breaking Gold analytical dashboards.
+Now let's see where this appears in the repository. Silver transformations are implemented in SilverLayerManager in src silver_layer dot py between lines 30 and 542.
+Congratulations, you now understand the inner code mechanics of Silver cleansing and Gold aggregation!

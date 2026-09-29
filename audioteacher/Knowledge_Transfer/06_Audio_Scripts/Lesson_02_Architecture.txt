@@ -1,0 +1,7 @@
+Welcome back student. Today we are going to examine the Medallion Data Architecture layers in detail.
+The Bronze layer ingests raw JSON data directly from source files, preserving original payloads and extraction timestamps.
+The Silver layer parses raw JSON strings, casts data types, validates primary keys, and cleanses null values into structured tables.
+The Gold layer aggregates data into analytical business marts, computing daily restaurant revenue, customer retention, and driver delivery performance.
+Let's pause and understand this with an example. Bronze is unrefined mineral ore, Silver is purified metal bars, and Gold is crafted jewelry ready for retail display.
+Now let's see where this appears in the repository. Bronze is managed in src bronze_layer dot py, Silver in src silver_layer dot py, and Gold in src gold_layer dot py.
+Congratulations, you now understand the 3-tier Medallion Data Architecture!

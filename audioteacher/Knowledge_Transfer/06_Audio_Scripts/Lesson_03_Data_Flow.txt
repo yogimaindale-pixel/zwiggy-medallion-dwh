@@ -1,0 +1,8 @@
+Welcome back student. Today we are going to trace end-to-end data flow through the Zwiggy Medallion pipeline.
+Data flow begins when sample_data_generator dot py creates raw JSON files for users, orders, restaurants, drivers, menu items, and payments.
+The Bronze layer reads these JSON files and inserts them into raw SQLite landing tables.
+The Silver layer decodes raw JSON payloads, performs schema validation, and inserts clean records into relational Silver tables.
+The Gold layer runs SQL join and aggregation queries across Silver tables, populating 4 analytical business marts.
+Let's pause and understand this with an example. The multi-stage data flow ensures that even if raw JSON format changes, historical raw data is safely stored in Bronze while Silver and Gold transformers adapt seamlessly.
+Now let's see where this appears in the repository. Data flow orchestration is managed by ZwiggyPipelineRunner in src pipeline_runner dot py between lines 35 and 99.
+Congratulations, you now understand the end-to-end data flow sequence!
