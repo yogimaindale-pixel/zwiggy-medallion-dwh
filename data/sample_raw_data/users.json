@@ -1,0 +1,82 @@
+[
+  {
+    "user_id": "USR_001",
+    "full_name": "Customer_1",
+    "email": "customer_1@example.com",
+    "phone_number": "+91987654301",
+    "city": "Bengaluru",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_002",
+    "full_name": "Customer_2",
+    "email": "customer_2@example.com",
+    "phone_number": "+91987654302",
+    "city": "Delhi",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_003",
+    "full_name": "Customer_3",
+    "email": "customer_3@example.com",
+    "phone_number": "+91987654303",
+    "city": "Hyderabad",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_004",
+    "full_name": "Customer_4",
+    "email": "customer_4@example.com",
+    "phone_number": "+91987654304",
+    "city": "Pune",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_005",
+    "full_name": "Customer_5",
+    "email": "customer_5@example.com",
+    "phone_number": "+91987654305",
+    "city": "Mumbai",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_006",
+    "full_name": "Customer_6",
+    "email": "customer_6@example.com",
+    "phone_number": "+91987654306",
+    "city": "Bengaluru",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_007",
+    "full_name": "Customer_7",
+    "email": "customer_7@example.com",
+    "phone_number": "+91987654307",
+    "city": "Delhi",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_008",
+    "full_name": "Customer_8",
+    "email": "customer_8@example.com",
+    "phone_number": "+91987654308",
+    "city": "Hyderabad",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_009",
+    "full_name": "Customer_9",
+    "email": "customer_9@example.com",
+    "phone_number": "+91987654309",
+    "city": "Pune",
+    "registered_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "user_id": "USR_010",
+    "full_name": "Customer_10",
+    "email": "customer_10@example.com",
+    "phone_number": "+91987654310",
+    "city": "Mumbai",
+    "registered_at": "2024-01-15T10:30:00Z"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "item_id": "ITM_001",
+    "restaurant_id": "RST_001",
+    "item_name": "Margherita Pizza",
+    "price": 350,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_002",
+    "restaurant_id": "RST_001",
+    "item_name": "Penne Arrabbiata",
+    "price": 310,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_003",
+    "restaurant_id": "RST_001",
+    "item_name": "Garlic Bread",
+    "price": 150,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_004",
+    "restaurant_id": "RST_002",
+    "item_name": "Hakka Noodles",
+    "price": 200,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_005",
+    "restaurant_id": "RST_002",
+    "item_name": "Veg Manchurian",
+    "price": 220,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_006",
+    "restaurant_id": "RST_002",
+    "item_name": "Spring Rolls",
+    "price": 180,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_007",
+    "restaurant_id": "RST_003",
+    "item_name": "Chicken Dum Biryani",
+    "price": 320,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_008",
+    "restaurant_id": "RST_003",
+    "item_name": "Mutton Biryani",
+    "price": 420,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_009",
+    "restaurant_id": "RST_003",
+    "item_name": "Raita",
+    "price": 40,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_010",
+    "restaurant_id": "RST_004",
+    "item_name": "Crispy Veg Burger",
+    "price": 120,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_011",
+    "restaurant_id": "RST_004",
+    "item_name": "French Fries",
+    "price": 100,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_012",
+    "restaurant_id": "RST_004",
+    "item_name": "Cold Coffee",
+    "price": 140,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_013",
+    "restaurant_id": "RST_005",
+    "item_name": "Paneer Butter Masala",
+    "price": 280,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_014",
+    "restaurant_id": "RST_005",
+    "item_name": "Dal Makhani",
+    "price": 220,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_015",
+    "restaurant_id": "RST_005",
+    "item_name": "Garlic Naan",
+    "price": 50,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_016",
+    "restaurant_id": "RST_006",
+    "item_name": "Margherita Pizza",
+    "price": 350,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_017",
+    "restaurant_id": "RST_006",
+    "item_name": "Penne Arrabbiata",
+    "price": 310,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_018",
+    "restaurant_id": "RST_006",
+    "item_name": "Garlic Bread",
+    "price": 150,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_019",
+    "restaurant_id": "RST_007",
+    "item_name": "Hakka Noodles",
+    "price": 200,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_020",
+    "restaurant_id": "RST_007",
+    "item_name": "Veg Manchurian",
+    "price": 220,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_021",
+    "restaurant_id": "RST_007",
+    "item_name": "Spring Rolls",
+    "price": 180,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_022",
+    "restaurant_id": "RST_008",
+    "item_name": "Chicken Dum Biryani",
+    "price": 320,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_023",
+    "restaurant_id": "RST_008",
+    "item_name": "Mutton Biryani",
+    "price": 420,
+    "is_available": true
+  },
+  {
+    "item_id": "ITM_024",
+    "restaurant_id": "RST_008",
+    "item_name": "Raita",
+    "price": 40,
+    "is_available": true
+  }
+]

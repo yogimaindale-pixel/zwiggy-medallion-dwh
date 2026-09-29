@@ -1,0 +1,50 @@
+[
+  {
+    "driver_id": "DRV_001",
+    "driver_name": "DeliveryPartner_1",
+    "vehicle_type": "Scooter",
+    "city": "Bengaluru",
+    "rating": 4.1,
+    "is_active": true
+  },
+  {
+    "driver_id": "DRV_002",
+    "driver_name": "DeliveryPartner_2",
+    "vehicle_type": "Electric Bike",
+    "city": "Delhi",
+    "rating": 4.2,
+    "is_active": true
+  },
+  {
+    "driver_id": "DRV_003",
+    "driver_name": "DeliveryPartner_3",
+    "vehicle_type": "Motorcycle",
+    "city": "Hyderabad",
+    "rating": 4.3,
+    "is_active": true
+  },
+  {
+    "driver_id": "DRV_004",
+    "driver_name": "DeliveryPartner_4",
+    "vehicle_type": "Scooter",
+    "city": "Pune",
+    "rating": 4.4,
+    "is_active": true
+  },
+  {
+    "driver_id": "DRV_005",
+    "driver_name": "DeliveryPartner_5",
+    "vehicle_type": "Electric Bike",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "is_active": true
+  },
+  {
+    "driver_id": "DRV_006",
+    "driver_name": "DeliveryPartner_6",
+    "vehicle_type": "Motorcycle",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "is_active": true
+  }
+]

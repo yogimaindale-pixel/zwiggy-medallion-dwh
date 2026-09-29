@@ -1,0 +1,66 @@
+[
+  {
+    "restaurant_id": "RST_001",
+    "restaurant_name": "Spicy Punjab Bistro",
+    "cuisine_type": "Italian",
+    "city": "Bengaluru",
+    "rating": 3.7,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_002",
+    "restaurant_name": "Bella Italia Pasta",
+    "cuisine_type": "Chinese",
+    "city": "Delhi",
+    "rating": 3.9,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_003",
+    "restaurant_name": "Wok & Roll Chinese",
+    "cuisine_type": "Biryani",
+    "city": "Hyderabad",
+    "rating": 4.1,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_004",
+    "restaurant_name": "Royal Hyderabadi Biryani",
+    "cuisine_type": "Fast Food",
+    "city": "Pune",
+    "rating": 4.3,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_005",
+    "restaurant_name": "Burger King Junction",
+    "cuisine_type": "Indian",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_006",
+    "restaurant_name": "Sagar Ratna South",
+    "cuisine_type": "Italian",
+    "city": "Bengaluru",
+    "rating": 4.7,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_007",
+    "restaurant_name": "Tandoori Flames",
+    "cuisine_type": "Chinese",
+    "city": "Delhi",
+    "rating": 4.9,
+    "is_active": true
+  },
+  {
+    "restaurant_id": "RST_008",
+    "restaurant_name": "Pizza Express Hub",
+    "cuisine_type": "Biryani",
+    "city": "Hyderabad",
+    "rating": 3.6,
+    "is_active": true
+  }
+]
